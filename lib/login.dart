@@ -7,10 +7,6 @@ class Login extends StatefulWidget{
   _Login createState() => _Login();
 }
 
-void _loginHandle() {
-  
-}
-
 class _Login extends State<Login>{
 
   @override
@@ -95,7 +91,9 @@ class _Login extends State<Login>{
                           Text('Sign-in')
                         ],
                       ),
-                      onPressed: _loginHandle,
+                      onPressed: (){
+                        Navigator.pushNamed(context, '/home');
+                      },
                     ),
                   ),
                   Padding(
@@ -126,7 +124,9 @@ class _Login extends State<Login>{
                       ),
                       color:  Color.fromARGB(255,59,89,152),
                       textColor: Colors.white,
-                      onPressed: _loginHandle,
+                      onPressed: (){
+                        Navigator.pushNamed(context, '/home');
+                      },
                     ),
                   ),
                   Padding(
@@ -147,7 +147,9 @@ class _Login extends State<Login>{
                       ),
                       color:  Color.fromARGB(255,243,46,6),
                       textColor: Colors.white,
-                      onPressed: _loginHandle,
+                      onPressed:(){
+                        Navigator.pushNamed(context, '/home');
+                      },
                     ),
                   ),
                   Padding(
