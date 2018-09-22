@@ -92,7 +92,7 @@ class _Login extends State<Login>{
                         ],
                       ),
                       onPressed: (){
-                        Navigator.pushNamed(context, '/home');
+                        Navigator.pushNamed(context, '/categorySpec');
                       },
                     ),
                   ),
@@ -125,7 +125,7 @@ class _Login extends State<Login>{
                       color:  Color.fromARGB(255,59,89,152),
                       textColor: Colors.white,
                       onPressed: (){
-                        Navigator.pushNamed(context, '/home');
+                        Navigator.pushNamed(context, '/categorySpec');
                       },
                     ),
                   ),
@@ -148,7 +148,7 @@ class _Login extends State<Login>{
                       color:  Color.fromARGB(255,243,46,6),
                       textColor: Colors.white,
                       onPressed:(){
-                        Navigator.pushNamed(context, '/home');
+                        Navigator.pushNamed(context, '/categorySpec');
                       },
                     ),
                   ),

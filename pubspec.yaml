@@ -23,6 +23,9 @@ dependencies:
   splashscreen: ^1.1.0
   font_awesome_flutter: ^8.0.1
   percent_indicator: ^1.0.9
+  flutter_swiper: ^1.1.2
+  flutter_simple_video_player: ^0.0.6
+
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +48,30 @@ flutter:
    - assets/bg.png
    - assets/logo.png
    - assets/user.png
+   - assets/cisco.png
+   - assets/grab.png
+   - assets/google.png
+   - assets/line.png
+   - assets/agoda.png
+   - assets/TOT.png
+   - assets/ptt.png
+   - assets/microsoft.png
+   - assets/frontend.png
+   - assets/backend.png
+   - assets/devops.png
+   - assets/tester.png
+   - assets/amazonec2.png
+   - assets/go.png
+   - assets/java.png
+   - assets/mongodb.png
+   - assets/mysql.png
+   - assets/nginx.png
+   - assets/nodejs.png
+   - assets/postgresql.png
+   - assets/python.png
+   - assets/jquery.png
+   - assets/react.png
+   - assets/blackbonejs.png
   
 
   # An image asset can refer to one or more resolution-specific "variants", see

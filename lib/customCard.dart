@@ -11,7 +11,7 @@ class _CustomCard extends State<CustomCard>{
     final images = [
     GestureDetector(
       onTap: (){
-        Navigator.pushNamed(context, '/course');
+        Navigator.pushNamed(context, '/category');
       },
       child: Card(
         margin: EdgeInsets.all(5.0),
@@ -20,7 +20,7 @@ class _CustomCard extends State<CustomCard>{
     ),
     GestureDetector(
       onTap: (){
-        Navigator.pushNamed(context, '/course');
+        Navigator.pushNamed(context, '/category');
       },
       child: Card(
         margin: EdgeInsets.all(5.0),
@@ -29,7 +29,7 @@ class _CustomCard extends State<CustomCard>{
     ),
     GestureDetector(
       onTap: (){
-        Navigator.pushNamed(context, '/course');
+        Navigator.pushNamed(context, '/category');
       },
       child: Card(
         margin: EdgeInsets.all(5.0),
@@ -38,7 +38,7 @@ class _CustomCard extends State<CustomCard>{
     ),
     GestureDetector(
       onTap: (){
-        Navigator.pushNamed(context, '/course');
+        Navigator.pushNamed(context, '/category');
       },
       child: Card(
         margin: EdgeInsets.all(5.0),

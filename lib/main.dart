@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 import 'splashScreen.dart';
 
 import 'home.dart';
-import 'course.dart';
+import 'category.dart';
+import 'courseDetail.dart';
+import 'company.dart';
+import 'categorySpecific.dart';
+import 'learning.dart';
 
 void main() => runApp(new MyApp());
 
@@ -20,7 +24,11 @@ class _MyApp extends State<MyApp> {
       initialRoute: '/',
       routes: {
         '/home': (context) => Home(),
-        '/course': (context) => Course(),
+        '/category': (context) => Category(),
+        '/courseDetail': (context) => CourseDetail(),
+        '/company': (context) => Company(),
+        '/categorySpec': (context) => CategorySpecific(),
+        '/learn': (context) => Learning(),
       },
       home: Scaffold(
         body: SplashScene()
